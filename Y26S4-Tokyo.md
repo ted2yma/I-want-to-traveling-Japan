@@ -162,4 +162,4 @@
 - 東京車站爆漿煎餃、東京車站美食、12 家 walk-in、後勁很大 12 家
 - 開運神社 (神社名沒出現)
 - 「必去看玩具」：內容是「東京六層樓大玩具店」(可能是山城屋)，店名沒出現
-- 2026 打卡景點 TOP20 (東京：teamLab Borderless/Planets、SHIBUYA SKY、麻布台 Hills、TOKYO NODE、GINZA SONY PARK、豐洲千客萬來)：沒排，有空檔再塞
+- 2026 打卡景點 TOP20 (東京：teamLab Planets、SHIBUYA SKY、TOKYO NODE、GINZA SONY PARK、豐洲千客萬來)：沒排，有空檔再塞 (teamLab Borderless、麻布台 Hills 去年去過)
