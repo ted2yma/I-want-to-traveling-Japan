@@ -137,7 +137,10 @@
 | ON / HOKA 鞋 (留言共識：HOKA 比較好走) [原文](https://www.threads.com/share/JY9OF5qkS/) | 新宿 Alpen | Day 7 |
 | 神田明神 工程師御守 / 資安御守 [原文](https://www.threads.com/share/OgaNq-6ZV/) | 神田明神 | Day 8 |
 | 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) [原文](https://www.threads.com/share/D68OI8erT/) | 唐吉訶德 | Day 9 銀座本館 |
-| 藥妝 (待列) | 阿美橫町 / 銀座 | Day 8、Day 9 |
+| 藥妝 — 眼藥水：ヒアレインS 5mL (第1類医薬品，要有藥劑師在班才能買，晚上可能買不到) | 阿美橫町 / 銀座 | Day 8、Day 9 |
+| 藥妝 — 腸胃：エビオス 2000錠 | 同上 | 同上 |
+| 藥妝 — 保健：DHC 魚油、DHC 維C、DHC 藍莓 | 同上 | 同上 |
+| 藥妝 — Kiss me 牙刷頭 | 同上 | 同上 |
 
 #### 🙋‍♀️ 女友的
 | 項目 | 去哪買 | 排在 |
