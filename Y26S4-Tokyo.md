@@ -120,7 +120,6 @@
 - **2115：** Scoot TR 875 回台北
 
 ## 6. 網友推薦 & 待辦整理
-> 原始資料在 `tokyo-temp.md`
 
 ### 📞 要先訂位
 - [ ] 魚秀 渋谷宇多川店 → Day 7 10/8 午餐
@@ -129,17 +128,31 @@
 - [ ] アートアクアリウム美術館 GINZA → Day 5 10/6 1645
 - [ ] コニカミノルタプラネタリアTOKYO (有楽町) → Day 5 10/6 1830 前後
 
-### 🛍️ 購物清單 (已排入)
+### 🛍️ 購物清單
+
+#### 🙋‍♂️ 我的
 | 項目 | 去哪買 | 排在 |
 |------|--------|------|
-| CHANEL 雙頭唇萃 148/160 (生日禮物) | 百貨化妝品櫃 | Day 2 池袋 |
-| ON / HOKA 鞋 (留言共識：HOKA 比較好走) | 新宿 Alpen | Day 7 |
-| 女生上班鞋 **LE TALON** (瑪莉珍/尖頭平底) | 百貨/LE TALON 門市 (待查) | Day 7 澀谷/新宿 |
-| 皮克敏週邊 | Nintendo TOKYO、上野 山城屋 3F (比較便宜、品項不同) | Day 7、Day 8 |
-| 神田明神 工程師御守 | 神田明神 | Day 8 |
-| 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) | 唐吉訶德 | Day 9 銀座本館 |
-| 西野優志 開心熊貓 | 待查店舖位置 | Day 9 東京車站? |
-| 哈利波特週邊 (貓頭鷹) | 影城不去了，市區店待查 | — |
+| 🎁 CHANEL 雙頭唇萃 148/160 (送女友生日禮物，10/6 前要買到) [原文](https://www.threads.com/share/FlFHntVBy/) | 百貨化妝品櫃 | Day 2 池袋 |
+| ON / HOKA 鞋 (留言共識：HOKA 比較好走) [原文](https://www.threads.com/share/JY9OF5qkS/) | 新宿 Alpen | Day 7 |
+| 神田明神 工程師御守 / 資安御守 [原文](https://www.threads.com/share/OgaNq-6ZV/) | 神田明神 | Day 8 |
+| 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) [原文](https://www.threads.com/share/D68OI8erT/) | 唐吉訶德 | Day 9 銀座本館 |
+| 藥妝 (待列) | 阿美橫町 / 銀座 | Day 8、Day 9 |
+
+#### 🙋‍♀️ 女友的
+| 項目 | 去哪買 | 排在 |
+|------|--------|------|
+| ON / HOKA 鞋 | 新宿 Alpen | Day 7 |
+| 女生上班鞋 **LE TALON** (瑪莉珍/尖頭平底) [原文1](https://www.threads.com/share/HJGsD7T3x/) [原文2](https://www.threads.com/share/Fu5fZS9ru/) | 百貨/LE TALON 門市 (待查) | Day 7 澀谷/新宿 |
+| 皮克敏週邊 [原文](https://www.threads.com/share/FRNyTayti/) | Nintendo TOKYO、上野 山城屋 3F (比較便宜、品項不同) | Day 7、Day 8 |
+| 西野優志 開心熊貓 | 待查店舖位置 (她提過東京車站) | Day 9 東京車站? |
+| 哈利波特週邊 (Hedwig 貓頭鷹) | 影城不去了，市區店待查 | — |
+| 藥妝 — 保養：Minon、Transino、Melano CC、Quality First 面膜 | 阿美橫町 / 吉祥寺 / 銀座 | Day 4 先比價，Day 8、Day 9 買 |
+| 藥妝 — 腸胃：太田胃散、新表飛鳴 | 同上 | 同上 |
+| 藥妝 — 痠痛：EVE、ROIHI 痠痛貼布 | 同上 | 同上 |
+| 藥妝 — 眼藥水：樂敦 Lycee、Sante Beautéye | 同上 | 同上 |
+
+> 她的建議：第一天先記價格不要買太多，最後在阿美橫町一次買齊 (OS Drug / 松本清 / SUNDRUG / Cocokara Fine)
 
 ### ✅ 排得進去
 - 牛たん炭焼 利久：Day 3 池袋、Day 9 東京駅
@@ -163,3 +176,33 @@
 - 開運神社 (神社名沒出現)
 - 「必去看玩具」：內容是「東京六層樓大玩具店」(可能是山城屋)，店名沒出現
 - 2026 打卡景點 TOP20 (東京：teamLab Planets、SHIBUYA SKY、TOKYO NODE、GINZA SONY PARK、豐洲千客萬來)：沒排，有空檔再塞 (teamLab Borderless、麻布台 Hills 去年去過)
+
+## 7. 參考資料 (還沒排進行程)
+
+### 女友想去的
+- **景點**：東京鐵塔夜景、神樂坂 (情侶約會)、谷中銀座、代代木上原 Minimal、中目黒 目黒川散步、代官山 IVY PLACE
+- **二子玉川** (Day 2 煙火前有空的話)：玉川高島屋、蔦屋家電、CINNABON、BICHEESE、午餐 おぼんdeごはん / とろろ屋
+- **餐廳**：人形町今半 壽喜燒、池袋 蟹道樂、根室花丸 (東京車站)、壽司大 (豐洲)、六歌仙、房家 (燒肉)、銀座篝、風雲兒 (拉麵)
+- **甜點**：HARBS、Gram Pancakes
+- **大洗**：Sawa Coffee (看海)
+- **超商宵夜**：明太子飯糰、金のハンバーグ、Premium Roll Cake
+
+### 網友整理的清單
+- **3 度回訪 14 家** ([原文](https://www.threads.com/share/EnYIDfDjZ/))：六歌仙 (燒肉放題)、俺的燒肉 銀座9丁目、磯丸水產、築地虎杖、一蘭、淺草今半、天丼てんや、根室花丸、AFURI、麵屋武藏、牛かつもと村、鳥貴族、銀だこ、人形町今半 (可樂餅)
+- **咖啡廳 19 間** ([原文](https://www.threads.com/share/FssdZlKm9/))：Koffee Mameya、Leaves Coffee、Coffee Swamp、Acid Coffee、Bongen Coffee (銀座)、Bear Pond、Coffee County、Glitch Coffee、andoh coffee (吉祥寺)、蕪木、nadoya no katte、Neel、Sidewalk Stand (中目黒)、Nozy Coffee、猿田彥 (原宿)、Coffee Wrights (表參道)、Fuglen Tokyo、Little Nap Coffee、dotcom space
+- **「願意再飛一次」留言 top** ([原文](https://www.threads.com/share/IZrbMdiD5/))：池袋 焼肉あぶる (評價兩極)、惠比壽 Pizza Marumo、秋葉原 ステーキライスとカレーの店、淺草 Unatoto 鰻魚飯、神保町 Ebimaru 龍蝦拉麵、澀谷 PARCO 極味屋、歌舞伎町 Rokusan Angel
+- **銀座晚上 8 點後** ([原文](https://www.threads.com/share/FyQa5rEqa/))：LE LABO、UNIQLO、GINZA SIX、OK 超市、松本清、唐吉訶德、Café La Bohème (到 03:30)
+- **東京駅酒造場** ([原文](https://www.threads.com/share/GKl5_RkmI/))：東京車站 B1 閘門內，自釀濁酒試飲，限坐 30 分
+- **平價美食留言** ([原文](https://www.threads.com/share/I1ZbCSnYQ/))：JB 漢堡 (~¥600)、新宿 檸檬牛舌、秋葉原 牛奶店
+
+### 還沒讀完的原文 (店名在圖片/影片裡)
+- [東京車站爆漿煎餃](https://www.threads.com/share/Fw0_txoFw/)
+- [東京車站美食](https://www.threads.com/share/IVM_ex5sO/)
+- [12 家 walk-in 美食](https://www.threads.com/share/D_xZxlxSH/)
+- [後勁很大 12 家](https://www.threads.com/share/HuowrAiDa/)
+- [獨旅 9 天美食](https://www.threads.com/share/KCj19QMZq/)
+- [開運神社](https://www.threads.com/share/Bk7OZa3fMy/)
+- [六層樓大玩具店](https://www.threads.com/share/GNdMkRE48/)
+- [2026 打卡景點 TOP20](https://www.threads.com/share/DPKKWXX9o/)
+- [上野 ¥1,600 燒肉午餐](https://www.threads.com/share/DymSp5mrM/)
+- [成田表參道](https://www.threads.com/share/Ffa-G900R/)、[CHAORIYA 焙茶派](https://www.threads.com/share/Op__NJft0/)、[20 間最美星巴克](https://www.threads.com/share/FsKFcfHSe/)、[迎賓館夜間公開](https://www.threads.com/share/EhYCiq8Wf/)、[7-11 抹茶起司蛋糕](https://www.threads.com/share/E4nDjUSKd/)
