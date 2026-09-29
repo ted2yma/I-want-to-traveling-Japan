@@ -98,7 +98,7 @@
 ### Day 8 | 10/9 (五)：清澄白河・藏前 → 上野，晚上和小楊吃飯
 - **(選配) 0700-0900：** 🐟 豐洲市場 壽司大 / 千客萬來 — 第二餐刺身 (市場休市日沒開，出發前查[市場日曆](https://www.shijou.metro.tokyo.lg.jp/calendar/2026)；壽司大常排 2 小時以上)
 - **1000：** 清澄白河 Blue Bottle Coffee → 清澄庭園
-- **午餐：** 深川飯
+- **1130 午餐：** 深川飯 [深川宿 本店](https://www.fukagawajuku.com/access_honten.html) (清澄白河 A3 出口 3 分，11:30-15:00 L.O.14:30，ぶっかけ+炊き込み 兩種都點) / 備案 [深川釜匠](https://a328700.gorp.jp/) (11:00 開，較彈性)
 - **1330：** 藏前 KURAMAE CANNELE、feb's coffee (布丁)、Dandelion Chocolate、Kakimori (文具)
 - **1530：** 神田明神 — 買**工程師御守 / 資安御守**
 - **1630：** 上野 **山城屋 3F** 便宜皮克敏 (滿 ¥5,500 免稅) → アメ横 藥妝 (OS Drug / 松本清 / SUNDRUG)
