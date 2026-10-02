@@ -245,6 +245,7 @@
 | ON / HOKA 鞋 (留言共識：HOKA 比較好走) [原文](https://www.threads.com/share/JY9OF5qkS/) | 新宿 Alpen | Day 4 |
 | 神田明神「IT守護」御守 ¥1,000 [原文](https://www.threads.com/share/OgaNq-6ZV/) | 神田明神 | Day 8 |
 | 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) [原文](https://www.threads.com/share/D68OI8erT/) | 唐吉訶德 | Day 9 銀座本館 |
+| 《神谷哲史折り紙作品集4》¥4,950 (出版社說一般書店不販售，去之前先確認庫存) | 代官山 蔦屋書店 / 紀伊國屋書店 新宿本店 (都沒有就去 おりがみはうす 白山) | Day 6 代官山、Day 4 新宿 |
 | Dyson HushJet Mini Cool — 含稅 ¥17,600 以下且有現貨才買 (免稅後約 ¥16,000 ≈ NT$3,300)，否則回台灣買 (NT$3,590)；日本買的可能沒有台灣保固 | 新宿 / 銀座 Bic Camera、Yodobashi (免稅) | Day 4、Day 9 |
 | 藥妝 — 眼藥水：ヒアレインS 5mL (第1類医薬品，要有藥劑師在班才能買，晚上可能買不到) | 銀座 | Day 9 |
 | 藥妝 — 腸胃：エビオス 2000錠 | 同上 | 同上 |
