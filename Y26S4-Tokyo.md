@@ -259,6 +259,7 @@
 | 皮克敏週邊 [原文](https://www.threads.com/share/FRNyTayti/) | Nintendo TOKYO、上野 山城屋 3F (比較便宜、品項不同) | Day 6、Day 8 |
 | 西村優志 開心熊貓 (ごきげんぱんだ) | 新宿 にしむらゆうじ購買部 本店 / 東京車站 キャラクターストリート | Day 4 新宿、Day 9 補貨 |
 | 哈利波特週邊：**Hedwig Interactive Owl** (互動嘿美) / Hedwig Plush | 影城不去了，市區店待查 | — |
+| 保養 — **NOV III** 系列：フェイスローション R しっとり 120 ml (¥4,400)、バリアコンセントレイト 30 g (¥5,500)、モイスチュアクリーム 45 g | ココカラファイン 銀座4丁目店 / 銀座 Loft / トモズ 銀座三丁目 / 吉祥寺 Loft ([官方店鋪搜尋](https://noevirgroup.jp/nov/brand/search/index.aspx)) | Day 4 先看，Day 9 銀座買 |
 | 藥妝 — 保養：Minon、Transino、Melano CC、Quality First 面膜 | 吉祥寺 / 銀座 | Day 4 先比價，Day 9 銀座買 |
 | 藥妝 — 腸胃：太田胃散、新表飛鳴 | 同上 | 同上 |
 | 藥妝 — 痠痛：EVE、ROIHI 痠痛貼布 | 同上 | 同上 |
