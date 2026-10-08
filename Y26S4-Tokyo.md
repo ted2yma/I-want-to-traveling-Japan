@@ -238,39 +238,6 @@
 ### 🎫 排定後要去 Klook 購票
 - (目前沒有；アートアクアリウム、プラネタリアTOKYO 已取消)
 
-### 🛍️ 購物清單
-
-#### 🙋‍♂️ 我的
-| 項目 | 去哪買 | 排在 |
-|------|--------|------|
-| 🎁 CHANEL 雙頭唇萃 148/160 (送女友生日禮物) [原文](https://www.threads.com/share/FlFHntVBy/) | 西武池袋 本館 3F / 東武池袋 2F / 新宿百貨 | Day 3 池袋 → Day 4 新宿 → Day 5 池袋一起買 |
-| ON / HOKA 鞋 (留言共識：HOKA 比較好走) [原文](https://www.threads.com/share/JY9OF5qkS/) | 新宿 Alpen | Day 4 |
-| 神田明神「IT守護」御守 ¥1,000 [原文](https://www.threads.com/share/OgaNq-6ZV/) | 神田明神 | Day 8 |
-| 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) [原文](https://www.threads.com/share/D68OI8erT/) | 唐吉訶德 | Day 9 銀座本館 |
-| 🐧 **Suica 企鵝週邊** (Suica 企鵝約 2027/3 底畢業，商品會全面停售) | [Pensta](https://www.ecute.jp/ueno/shop/4471) JR 上野駅 3F 改札內 ecute 上野 (入谷改札・パンダ橋口側；咖啡廳 6:30-22:00、商品區平日 9:00-21:00) | Day 9 早上 10:15 |
-| Dyson HushJet Mini Cool — 含稅 ¥17,600 以下且有現貨才買 (免稅後約 ¥16,000 ≈ NT$3,300)，否則回台灣買 (NT$3,590)；日本買的可能沒有台灣保固 | 新宿 / 銀座 Bic Camera、Yodobashi (免稅) | Day 4、Day 9 |
-| 藥妝 — 眼藥水：ヒアレインS 5mL (第1類医薬品，要有藥劑師在班才能買，晚上可能買不到) | 銀座 | Day 9 |
-| 藥妝 — 腸胃：エビオス 2000錠 | 同上 | 同上 |
-| 藥妝 — 保健：DHC 魚油、DHC 維C、DHC 藍莓 | 同上 | 同上 |
-| 藥妝 — Kiss me 牙刷頭 | 同上 | 同上 |
-
-#### 🙋‍♀️ 女友的
-| 項目 | 去哪買 | 排在 |
-|------|--------|------|
-| ON / HOKA 鞋 | 新宿 Alpen | Day 4 |
-| 《神谷哲史折り紙作品集4》¥4,950 (出版社說一般書店不販售，去之前先確認庫存) | 代官山 蔦屋書店 / 紀伊國屋書店 新宿本店 (都沒有就去 おりがみはうす 白山) | Day 6 代官山、Day 4 新宿 |
-| 女生上班鞋 **LE TALON** (瑪莉珍/尖頭平底) [原文1](https://www.threads.com/share/HJGsD7T3x/) [原文2](https://www.threads.com/share/Fu5fZS9ru/) | 百貨/LE TALON 門市 (待查) | Day 4 新宿 / Day 6 |
-| 皮克敏週邊 [原文](https://www.threads.com/share/FRNyTayti/) | Nintendo TOKYO、上野 山城屋 3F (比較便宜、品項不同) | Day 6、Day 8 |
-| 西村優志 開心熊貓 (ごきげんぱんだ) | 新宿 にしむらゆうじ購買部 本店 / 東京車站 キャラクターストリート | Day 4 新宿、Day 9 補貨 |
-| 哈利波特週邊：**Hedwig Interactive Owl** (互動嘿美) / Hedwig Plush | 影城不去了，市區店待查 | — |
-| 保養 — **NOV III** 系列：フェイスローション R しっとり 120 ml (¥4,400)、バリアコンセントレイト 30 g (¥5,500)、モイスチュアクリーム 45 g | ココカラファイン 銀座4丁目店 / 銀座 Loft / トモズ 銀座三丁目 / 吉祥寺 Loft ([官方店鋪搜尋](https://noevirgroup.jp/nov/brand/search/index.aspx)) | Day 4 先看，Day 9 銀座買 |
-| 藥妝 — 保養：Minon、Transino、Melano CC、Quality First 面膜 | 吉祥寺 / 銀座 | Day 4 先比價，Day 9 銀座買 |
-| 藥妝 — 腸胃：太田胃散、新表飛鳴 | 同上 | 同上 |
-| 藥妝 — 痠痛：EVE、ROIHI 痠痛貼布 | 同上 | 同上 |
-| 藥妝 — 眼藥水：樂敦 Lycee、Sante Beautéye | 同上 | 同上 |
-
-> 她的建議：第一天先記價格不要買太多，最後在阿美橫町一次買齊 (OS Drug / 松本清 / SUNDRUG / Cocokara Fine)
-
 ### ✅ 排得進去
 - 牛たん炭焼 利久：Day 3 池袋、Day 9 東京駅
 - 刺身：Day 7 那珂湊おさかな市場 (主要)、Day 6 魚秀 渋谷宇多川店 (澀谷必推，[原文](https://www.threads.com/share/DCCtvuNCd/))
@@ -301,7 +268,40 @@
 - 「必去看玩具」：內容是「東京六層樓大玩具店」(可能是山城屋)，店名沒出現
 - 2026 打卡景點 TOP20 (東京：teamLab Planets、SHIBUYA SKY、TOKYO NODE、GINZA SONY PARK、豐洲千客萬來)：沒排，有空檔再塞 (teamLab Borderless、麻布台 Hills 去年去過)
 
-## 8. 參考資料 (還沒排進行程)
+## 8. 🛍️ 購物清單
+
+### 🙋‍♂️ 我的
+| 項目 | 去哪買 | 排在 |
+|------|--------|------|
+| 🎁 CHANEL 雙頭唇萃 148/160 (送女友生日禮物) [原文](https://www.threads.com/share/FlFHntVBy/) | 西武池袋 本館 3F / 東武池袋 2F / 新宿百貨 | Day 3 池袋 → Day 4 新宿 → Day 5 池袋一起買 |
+| ON / HOKA 鞋 (留言共識：HOKA 比較好走) [原文](https://www.threads.com/share/JY9OF5qkS/) | 新宿 Alpen | Day 4 |
+| 神田明神「IT守護」御守 ¥1,000 [原文](https://www.threads.com/share/OgaNq-6ZV/) | 神田明神 | Day 8 |
+| 去漬神器 (唐吉訶德店員推薦，品名在圖片裡還沒讀到) [原文](https://www.threads.com/share/D68OI8erT/) | 唐吉訶德 | Day 9 銀座本館 |
+| 🐧 **Suica 企鵝週邊** (Suica 企鵝約 2027/3 底畢業，商品會全面停售) | [Pensta](https://www.ecute.jp/ueno/shop/4471) JR 上野駅 3F 改札內 ecute 上野 (入谷改札・パンダ橋口側；咖啡廳 6:30-22:00、商品區平日 9:00-21:00) | Day 9 早上 10:15 |
+| Dyson HushJet Mini Cool — 含稅 ¥17,600 以下且有現貨才買 (免稅後約 ¥16,000 ≈ NT$3,300)，否則回台灣買 (NT$3,590)；日本買的可能沒有台灣保固 | 新宿 / 銀座 Bic Camera、Yodobashi (免稅) | Day 4、Day 9 |
+| 藥妝 — 眼藥水：ヒアレインS 5mL (第1類医薬品，要有藥劑師在班才能買，晚上可能買不到) | 銀座 | Day 9 |
+| 藥妝 — 腸胃：エビオス 2000錠 | 同上 | 同上 |
+| 藥妝 — 保健：DHC 魚油、DHC 維C、DHC 藍莓 | 同上 | 同上 |
+| 藥妝 — Kiss me 牙刷頭 | 同上 | 同上 |
+
+### 🙋‍♀️ 女友的
+| 項目 | 去哪買 | 排在 |
+|------|--------|------|
+| ON / HOKA 鞋 | 新宿 Alpen | Day 4 |
+| 《神谷哲史折り紙作品集4》¥4,950 (出版社說一般書店不販售，去之前先確認庫存) | 代官山 蔦屋書店 / 紀伊國屋書店 新宿本店 (都沒有就去 おりがみはうす 白山) | Day 6 代官山、Day 4 新宿 |
+| 女生上班鞋 **LE TALON** (瑪莉珍/尖頭平底) [原文1](https://www.threads.com/share/HJGsD7T3x/) [原文2](https://www.threads.com/share/Fu5fZS9ru/) | 百貨/LE TALON 門市 (待查) | Day 4 新宿 / Day 6 |
+| 皮克敏週邊 [原文](https://www.threads.com/share/FRNyTayti/) | Nintendo TOKYO、上野 山城屋 3F (比較便宜、品項不同) | Day 6、Day 8 |
+| 西村優志 開心熊貓 (ごきげんぱんだ) | 新宿 にしむらゆうじ購買部 本店 / 東京車站 キャラクターストリート | Day 4 新宿、Day 9 補貨 |
+| 哈利波特週邊：**Hedwig Interactive Owl** (互動嘿美) / Hedwig Plush | 影城不去了，市區店待查 | — |
+| 保養 — **NOV III** 系列：フェイスローション R しっとり 120 ml (¥4,400)、バリアコンセントレイト 30 g (¥5,500)、モイスチュアクリーム 45 g | ココカラファイン 銀座4丁目店 / 銀座 Loft / トモズ 銀座三丁目 / 吉祥寺 Loft ([官方店鋪搜尋](https://noevirgroup.jp/nov/brand/search/index.aspx)) | Day 4 先看，Day 9 銀座買 |
+| 藥妝 — 保養：Minon、Transino、Melano CC、Quality First 面膜 | 吉祥寺 / 銀座 | Day 4 先比價，Day 9 銀座買 |
+| 藥妝 — 腸胃：太田胃散、新表飛鳴 | 同上 | 同上 |
+| 藥妝 — 痠痛：EVE、ROIHI 痠痛貼布 | 同上 | 同上 |
+| 藥妝 — 眼藥水：樂敦 Lycee、Sante Beautéye | 同上 | 同上 |
+
+> 她的建議：第一天先記價格不要買太多，最後在阿美橫町一次買齊 (OS Drug / 松本清 / SUNDRUG / Cocokara Fine)
+
+## 9. 參考資料 (還沒排進行程)
 
 ### 女友提供的參考資料
 - **景點**：東京鐵塔夜景、神樂坂 (情侶約會)、谷中銀座、代代木上原 Minimal、中目黒 目黒川散步、代官山 IVY PLACE
