@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
+<title>日本旅行計劃</title>
+<!-- 外殼：內容一律從 repo 內的 Markdown 讀取，Markdown 才是 source -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+<style>
+:root {
+  --bg: #f6f4ef;
+  --surface: #ffffff;
+  --surface-2: #efece4;
+  --text: #1f2328;
+  --muted: #6b6f76;
+  --border: #e2ded4;
+  --accent: #c0392b;
+  --accent-soft: #fbe9e6;
+  --link: #1f5fbf;
+  --today: #fff3cd;
+  --today-border: #e0a800;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 2px 8px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16181c;
+    --surface: #1f2228;
+    --surface-2: #2a2e35;
+    --text: #e6e6e6;
+    --muted: #9aa0a8;
+    --border: #353a42;
+    --accent: #ff6b5b;
+    --accent-soft: #3a2422;
+    --link: #7fb0ff;
+    --today: #3a3220;
+    --today-border: #d4a72c;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16181c;
+  --surface: #1f2228;
+  --surface-2: #2a2e35;
+  --text: #e6e6e6;
+  --muted: #9aa0a8;
+  --border: #353a42;
+  --accent: #ff6b5b;
+  --accent-soft: #3a2422;
+  --link: #7fb0ff;
+  --today: #3a3220;
+  --today-border: #d4a72c;
+  --shadow: none;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 112px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Hiragino Sans", "Microsoft JhengHei", sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+a { color: var(--link); text-decoration: none; word-break: break-word; }
+a:hover { text-decoration: underline; }
+
+/* 頂部列 */
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding-top: env(safe-area-inset-top);
+}
+.topbar-row {
+  display: flex; align-items: center; gap: 8px;
+  max-width: 760px; margin: 0 auto; padding: 10px 16px 8px;
+}
+.topbar h1 {
+  flex: 1; margin: 0; font-size: 17px; font-weight: 700;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.icon-btn {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  min-width: 40px; height: 36px; padding: 0 10px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--surface); color: var(--text);
+  font-size: 14px; cursor: pointer;
+}
+.chips {
+  display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+  max-width: 760px; margin: 0 auto; padding: 0 16px 10px;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; padding: 5px 12px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface);
+  color: var(--text); font-size: 13px; white-space: nowrap;
+}
+.chip.today { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.chip.past { color: var(--muted); }
+
+/* 章節選單 */
+.menu {
+  position: fixed; inset: 0; z-index: 30; display: none;
+  background: rgba(0,0,0,.35);
+}
+.menu.open { display: block; }
+.menu-panel {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  max-height: 75vh; overflow-y: auto;
+  background: var(--surface); border-radius: 18px 18px 0 0;
+  padding: 8px 8px calc(16px + env(safe-area-inset-bottom));
+}
+.menu-panel a {
+  display: block; padding: 12px 14px; border-radius: 10px; color: var(--text);
+}
+.menu-panel a:active { background: var(--surface-2); }
+.menu-handle { width: 40px; height: 4px; border-radius: 4px; background: var(--border); margin: 6px auto 10px; }
+
+/* 內容 */
+main { max-width: 760px; margin: 0 auto; padding: 12px 16px 48px; }
+.status { color: var(--muted); text-align: center; padding: 48px 0; }
+.doc > h1 { display: none; }
+.doc h2 {
+  font-size: 19px; margin: 28px 0 10px; padding-left: 10px;
+  border-left: 4px solid var(--accent);
+}
+.doc h3 { font-size: 16px; margin: 20px 0 8px; }
+.doc h4 { font-size: 15px; margin: 16px 0 6px; color: var(--muted); }
+.doc p { margin: 8px 0; }
+.doc ul, .doc ol { padding-left: 1.3em; margin: 6px 0; }
+.doc li { margin: 4px 0; }
+.doc li > ul { margin: 2px 0; }
+.doc strong { font-weight: 700; }
+.doc hr { border: 0; border-top: 1px solid var(--border); margin: 20px 0; }
+.doc code {
+  font-size: .88em; background: var(--surface-2);
+  padding: 1px 5px; border-radius: 5px;
+}
+.doc pre { overflow-x: auto; background: var(--surface-2); padding: 12px; border-radius: 10px; }
+.doc blockquote {
+  margin: 10px 0; padding: 8px 12px;
+  background: var(--accent-soft); border-radius: 10px;
+  color: var(--text); font-size: 14px;
+}
+.doc blockquote p { margin: 2px 0; }
+.doc input[type="checkbox"] { margin: 0 6px 0 0; transform: translateY(1px); }
+.doc li:has(> input[type="checkbox"]) { list-style: none; margin-left: -1.1em; }
+
+/* 表格：可左右滑 */
+.table-wrap {
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  margin: 10px 0; border: 1px solid var(--border); border-radius: 10px;
+  background: var(--surface);
+}
+.doc table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+.doc th, .doc td {
+  padding: 8px 10px; border-bottom: 1px solid var(--border);
+  text-align: left; vertical-align: top; min-width: 72px;
+}
+.doc th { background: var(--surface-2); font-weight: 700; white-space: nowrap; }
+.doc tr:last-child td { border-bottom: 0; }
+
+/* 每日卡片 */
+.day {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  margin: 12px 0; overflow: hidden;
+}
+.day > summary {
+  list-style: none; cursor: pointer;
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 14px; font-weight: 700; font-size: 15.5px;
+}
+.day > summary::-webkit-details-marker { display: none; }
+.day > summary::after {
+  content: "▾"; margin-left: auto; color: var(--muted); transition: transform .15s;
+}
+.day:not([open]) > summary::after { transform: rotate(-90deg); }
+.day-body { padding: 0 14px 12px; border-top: 1px solid var(--border); }
+.day.today { border-color: var(--today-border); background: var(--today); }
+.day.today > summary::before {
+  content: "今天"; flex: none; white-space: nowrap;
+  font-size: 11px; font-weight: 700; color: #fff;
+  background: var(--accent); border-radius: 6px; padding: 1px 6px;
+}
+.day.past > summary { color: var(--muted); }
+
+/* 首頁 */
+.trip-list { display: grid; gap: 12px; margin-top: 8px; }
+.trip-card {
+  display: block; padding: 14px 16px; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.trip-card:hover { text-decoration: none; border-color: var(--accent); }
+.trip-card .code { font-size: 12px; color: var(--accent); font-weight: 700; }
+.trip-card .dest { font-size: 18px; font-weight: 700; margin: 2px 0; }
+.trip-card .meta { font-size: 13px; color: var(--muted); }
+.footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 32px; }
+.footer a { color: var(--muted); text-decoration: underline; }
+
+.to-top {
+  position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 15; display: none;
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  box-shadow: 0 2px 10px rgba(0,0,0,.12); font-size: 18px;
+}
+.to-top.show { display: block; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-row">
+    <a class="icon-btn" id="home-btn" href="./" aria-label="回首頁" hidden>←</a>
+    <h1 id="title">日本旅行計劃</h1>
+    <button class="icon-btn" id="menu-btn" type="button" hidden>章節</button>
+  </div>
+  <nav class="chips" id="chips" hidden></nav>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-label="章節">
+  <div class="menu-panel" id="menu-panel"><div class="menu-handle"></div></div>
+</div>
+
+<main>
+  <div class="status" id="status">載入中…</div>
+  <article class="doc" id="doc"></article>
+  <p class="footer" id="footer" hidden></p>
+</main>
+
+<button class="to-top" id="to-top" type="button" aria-label="回到頂部">↑</button>
+
+<script>
+(function () {
+  "use strict";
+
+  var $ = function (id) { return document.getElementById(id); };
+  var params = new URLSearchParams(location.search);
+  var file = params.get("f");
+
+  // 只允許讀 repo 根目錄的 .md，避免 ?f= 被拿去讀任意網址
+  if (file && !/^[\w.-]+\.md$/i.test(file)) file = null;
+
+  // 以東京時間判斷「今天」
+  function tokyoToday() {
+    var parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Tokyo", year: "numeric", month: "numeric", day: "numeric"
+    }).formatToParts(new Date());
+    var get = function (t) { return Number(parts.find(function (p) { return p.type === t; }).value); };
+    return { y: get("year"), m: get("month"), d: get("day") };
+  }
+
+  function fetchText(path) {
+    return fetch(path + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error(path + " 讀取失敗 (" + r.status + ")");
+      return r.text();
+    });
+  }
+
+  function render(md) {
+    var html = marked.parse(md, { gfm: true, breaks: false });
+    var doc = $("doc");
+    doc.innerHTML = DOMPurify.sanitize(html, { ADD_ATTR: ["target"] });
+    doc.querySelectorAll("table").forEach(function (t) {
+      var wrap = document.createElement("div");
+      wrap.className = "table-wrap";
+      t.parentNode.insertBefore(wrap, t);
+      wrap.appendChild(t);
+    });
+    doc.querySelectorAll("a[href]").forEach(function (a) {
+      var href = a.getAttribute("href");
+      if (/^https?:/i.test(href)) {
+        a.target = "_blank";
+        a.rel = "noopener";
+      } else if (/^[\w.-]+\.md(#.*)?$/i.test(href)) {
+        a.href = "?f=" + href.replace(/#.*/, "");
+      }
+    });
+    return doc;
+  }
+
+  function slug(text, i) {
+    return "s" + i + "-" + text.replace(/[^\w぀-ヿ一-鿿]+/g, "-").slice(0, 24);
+  }
+
+  // 把「### Day N | M/D …」到下一個 h2/h3 之間包成可收合的卡片
+  function buildDays(doc, year) {
+    var today = tokyoToday();
+    var todayKey = today.y * 10000 + today.m * 100 + today.d;
+    var days = [];
+    Array.prototype.slice.call(doc.querySelectorAll("h3")).forEach(function (h) {
+      var m = h.textContent.match(/^\s*Day\s*(\d+)\s*\|\s*(\d{1,2})\/(\d{1,2})/i);
+      if (!m) return;
+      var key = year * 10000 + Number(m[2]) * 100 + Number(m[3]);
+      var details = document.createElement("details");
+      details.className = "day";
+      details.id = "day-" + m[1];
+      var summary = document.createElement("summary");
+      summary.textContent = h.textContent.trim();
+      var body = document.createElement("div");
+      body.className = "day-body";
+      details.appendChild(summary);
+      details.appendChild(body);
+      var node = h.nextSibling;
+      while (node && !(node.nodeType === 1 && /^H[123]$/.test(node.tagName))) {
+        var next = node.nextSibling;
+        body.appendChild(node);
+        node = next;
+      }
+      h.parentNode.replaceChild(details, h);
+      var state = key === todayKey ? "today" : key < todayKey ? "past" : "future";
+      if (state !== "future") details.classList.add(state);
+      // 今天和之後的行程預設展開，已經過去的收起來
+      details.open = state !== "past";
+      days.push({ n: m[1], label: "Day " + m[1] + " · " + m[2] + "/" + m[3], id: details.id, state: state });
+    });
+    return days;
+  }
+
+  function buildNav(doc, days) {
+    var chips = $("chips");
+    chips.innerHTML = "";
+    days.forEach(function (d) {
+      var a = document.createElement("a");
+      a.className = "chip" + (d.state === "future" ? "" : " " + d.state);
+      a.href = "#" + d.id;
+      a.textContent = d.label;
+      a.addEventListener("click", function () {
+        var el = document.getElementById(d.id);
+        if (el) el.open = true;
+      });
+      chips.appendChild(a);
+    });
+    chips.hidden = days.length === 0;
+    var todayChip = chips.querySelector(".chip.today");
+    if (todayChip) todayChip.scrollIntoView({ inline: "center", block: "nearest" });
+
+    var panel = $("menu-panel");
+    doc.querySelectorAll("h2").forEach(function (h, i) {
+      h.id = h.id || slug(h.textContent, i);
+      var a = document.createElement("a");
+      a.href = "#" + h.id;
+      a.textContent = h.textContent;
+      a.addEventListener("click", closeMenu);
+      panel.appendChild(a);
+    });
+    $("menu-btn").hidden = false;
+  }
+
+  function openMenu() { $("menu").classList.add("open"); }
+  function closeMenu() { $("menu").classList.remove("open"); }
+  $("menu-btn").addEventListener("click", openMenu);
+  $("menu").addEventListener("click", function (e) { if (e.target === this) closeMenu(); });
+
+  var toTop = $("to-top");
+  window.addEventListener("scroll", function () {
+    toTop.classList.toggle("show", window.scrollY > 600);
+  }, { passive: true });
+  toTop.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  function showError(err) {
+    $("status").hidden = false;
+    $("status").textContent = err.message || String(err);
+  }
+
+  function showFooter(path) {
+    var repo = "https://github.com/ted2yma/I-want-to-traveling-Japan/blob/main/" + path;
+    var f = $("footer");
+    f.innerHTML = '內容來源：<a href="' + repo + '" target="_blank" rel="noopener">' + path + "</a>";
+    f.hidden = false;
+  }
+
+  // 首頁：從 readme.md 的旅行清單表格產生入口
+  function renderHome() {
+    fetchText("readme.md").then(function (md) {
+      var doc = render(md);
+      var cards = [];
+      doc.querySelectorAll("table tbody tr").forEach(function (tr) {
+        var cells = tr.querySelectorAll("td");
+        var link = tr.querySelector('a[href^="?f="]');
+        if (!link || cells.length < 4) return;
+        cards.push(
+          '<a class="trip-card" href="' + link.getAttribute("href") + '">' +
+          '<div class="code">' + cells[0].textContent + "</div>" +
+          '<div class="dest">' + cells[1].textContent + "</div>" +
+          '<div class="meta">' + cells[2].textContent + "</div>" +
+          '<div class="meta">' + cells[3].textContent + "</div></a>"
+        );
+      });
+      doc.innerHTML = '<div class="trip-list">' + cards.reverse().join("") + "</div>";
+      $("status").hidden = true;
+      showFooter("readme.md");
+    }).catch(showError);
+  }
+
+  function renderTrip(path) {
+    $("home-btn").hidden = false;
+    fetchText(path).then(function (md) {
+      var doc = render(md);
+      var h1 = doc.querySelector("h1");
+      if (h1) {
+        $("title").textContent = h1.textContent;
+        document.title = h1.textContent;
+      }
+      // 從檔名 Y26S4 推出年份 2026
+      var ym = path.match(/^Y(\d{2})S/i);
+      var year = ym ? 2000 + Number(ym[1]) : tokyoToday().y;
+      var days = buildDays(doc, year);
+      buildNav(doc, days);
+      $("status").hidden = true;
+      showFooter(path);
+      if (location.hash) {
+        var target = document.getElementById(location.hash.slice(1));
+        if (target) { target.open = true; target.scrollIntoView(); }
+      }
+    }).catch(showError);
+  }
+
+  if (file) renderTrip(file); else renderHome();
+})();
+</script>
+</body>
+</html>
